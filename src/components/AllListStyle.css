@@ -1,0 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Anek Devanagari', sans-serif;
+}
+
+.container{
+    overflow-y: scroll;
+    height: 27em;
+} 
+
+.container__ul{
+    display: flex;
+    flex-direction: column;
+}

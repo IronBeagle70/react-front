@@ -1,0 +1,36 @@
+.create{
+    max-width: 31.25em;
+    display: none;
+    margin-top: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.create__btn{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    font-size: 2rem;
+    background-color: #71357C;
+    border: #71357D;
+    color: #E5CCD9;
+    text-align: center;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+@media (max-width:770px){
+    .create{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+}
+
+@media(max-width:600px){
+    .create{
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+}
